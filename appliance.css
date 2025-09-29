@@ -1,0 +1,149 @@
+.top {
+  background-color: orange;
+  width: 100%;
+  height: 30vh;
+  font-size: 23px;
+}
+.medium {
+  height: 340px;
+  position: relative;
+  border: 5px solid transparent;
+  margin-top: 20px;
+  margin-left: 50px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  width: 310px;
+  padding-left: 0px;
+  border-radius: 10px;
+  z-index: 2;
+  top: -50px;
+  left: 70px;
+}
+.drop_box {
+  border-radius: 5px;
+  border: 1px solid #656565;
+  width: 270px;
+  height: 50px;
+  margin-bottom: 19px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.drop_box > span {
+  position: relative;
+  color: #9c57cc;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 8px 15px;
+  font-family: "Montserrat", sans-serif;
+  top: -64px;
+  left: -2px;
+}
+
+.drop_menu {
+  width: 100%;
+  padding: 19px 11px 8px 11px;
+  margin-bottom: 20px;
+  color: #6d6d6d;
+}
+.wallpaper_1 {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  text-align: center;
+  justify-content: center;
+  background-image: url(./Asserts/Group456.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wallpaper_1 > h1 {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+}
+.products-plans {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 30px;
+  width: 630px;
+  height: 215px;
+  left: 360px;
+  position: absolute;
+  bottom: 120px;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.products-plan-text {
+  width: 75%;
+}
+.products-plan-heading,
+.products-plan-text,
+.products-plans {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+.products-plan-description ul {
+  color: #424242;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 17px;
+  padding-top: 40px;
+}
+.products-plan-price {
+  margin-top: 10px;
+}
+.secondary-button {
+  position: relative;
+  bottom: -105px;
+  border-radius: 100px;
+  background: #f7941d;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  
+  width: 75px;
+  cursor: pointer;
+}
+.product-plans-sidebar-faq {
+  position: absolute;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  height: 340px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background: #fff;
+  width: 310px;
+  border-radius: 10px;
+  z-index: 3;
+  top: 730px;
+  left: 70px;
+}
+.product-plans-sidebar-faq h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.product-promotional-banner {
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  bottom: -400px;
+}
+.img-fluid {
+  
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}

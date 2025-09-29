@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="appliance.css">
+    <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <!-- <div class="top">hellooo</div> -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-loc">
+                <div class="icon-loc"><i class="fa-solid fa-location-dot fa-xl"></i></div>
+                <select class="loc-select">
+                    <option>Location</option>
+                    <option>Bhimavaram</option>
+                    <option>Narsapuram</option>
+                    <option>Palakollu</option>
+                    <option>Tanuku</option>
+                    <option>Tadepalligudem</option>
+                </select>
+                </select>
+            </div>
+            <div class="service-class border">
+                <a href="#" id="firstname">Services<i class="fa-solid fa-chevron-down fa-la  "></i></a>
+                <div class="box1">
+                    <div class="mega-menu" style="
+                            right: 0px;
+                            left: 0px;
+                            bottom: 0px;
+                            margin-left: 0px;
+                            top: 0px;
+                            height: 200px;
+                            padding-left: 588px;
+                            margin-top: 81px;
+                        ">
+                        <div class="content">
+                            <div class="main">
+                                <p>Living Room Appliances</p>
+                                <ul class="mega-links">
+                                    <li>
+                                        <a href="#">Split Ac Repair & Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Window Ac Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Air Cooler Repair and Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">LED TV Installation and Repair</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main">
+                                <p>Kitchen Appliances</p>
+                                <ul class="mega-links">
+                                    <li>
+                                        <a href="#">Single Door Refrigerator Repair and Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">RO Repair & Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chimney Repair and Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Alkaline Water Purifier Repair and Service
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main">
+                                <p>Others </p>
+                                <ul class="mega-links">
+                                    <li>
+                                        <a href="#">Island Chimney Repair and Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Instant Water Heater Repair and Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Automatic Washing Machine Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Semi Automatic Washing Machine Repair</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="status">
+                <a href="cart-status.html" id="secondname"><img width="50px" height="50px" src="Asserts/delivery-status.png"
+                        alt=""></a>
+            </div>
+    
+            <div class="log">
+                <a href="#">Login</a>
+            </div>
+            <section id="loginfloat" class="login-section">
+                <div class="container-login">
+    
+                    <div id="loginForm">
+                        <h2>Login</h2>
+                        <div class="form-group">
+                            <label class="mylabel" for="loginUsername">Username:</label>
+                            <input class="myinput" type="text" id="loginUsername" placeholder="Enter your username">
+                        </div>
+                        <div class="form-group">
+                            <label class="mylabel" for="loginPassword">Password:</label>
+                            <input class="myinput" type="password" id="loginPassword" placeholder="Enter your password">
+                        </div>
+                        <button class="mybutton" onclick="login()">Log in</button>
+                        <p>Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a></p>
+                    </div>
+    
+                    <div id="signupForm" style="display:none;">
+                        <h2>Sign Up</h2>
+                        <div class="form-group">
+                            <label class="mylabel" for="signupUsername">Username:</label>
+                            <input class="myinput" type="text" id="signupUsername" placeholder="Choose a username">
+                        </div>
+                        <div class="form-group">
+                            <label class="mylabel" for="signupPassword">Password:</label>
+                            <input class="myinput" type="password" id="signupPassword" placeholder="Choose a password">
+                        </div>
+                        <button class="mybutton" onclick="signup()">Sign Up</button>
+                        <p>Already have an account? <a href="#" onclick="toggleForm()">Log in</a></p>
+                    </div>
+                </div>
+            </section>
+    
+    
+    
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var loginSection = document.getElementById('loginfloat');
+                    var loginLink = document.querySelector('.log a');
+
+                    loginLink.addEventListener('click', function () {
+                        loginSection.classList.add('visible');
+                    });
+                });
+            </script>
+    
+    
+    
+        </div>
+    </header>
+    <main style="height: 1200px;">
+        <section class="wallpaper_1">
+            <h1 id="heading">Washing Machine</h1>
+        </section>
+        <div class="medium">
+            <div class="drop_box">
+                <p id="appliance" class="drop_menu">xxxx</p>
+                <span>Appliance</span>
+            </div>
+            <div class="drop_box">
+                    <p id="brand" class="drop_menu">xxxxx</p>
+                <span>Brand</span>
+            </div>
+            <div class="drop_box">
+                <p id="sub" class="drop_menu"> xxxxx</p>
+                <span>Sub Category</span>
+            </div>
+            <div class="drop_box">
+                <p id="warn" class="drop_menu">xxxxxx</p>
+                <span>Warranty</span>
+            </div>
+         
+            <div class="products-plans">
+                <article class="products-plan-single" data-id="640a34e81e81e9fdcee8dd4e">
+                    <div class="flexible-center">
+                        <div class="products-plan-text">
+                            <div class="products-plan-heading">
+                                Service By Brand </div>
+                            <div class="products-plan-price"><s><small>Rs. 0</small></s> Rs. <b>0</b></div>
+                            <div class="products-plan-description">
+                                <ul>
+                                    <li>Price includes visit &amp; diagnosis</li>
+                                    <li>Spare part rates applicable as per rate card</li>
+                                </ul>
+                            </div>
+                        </div>
+        
+                        <div class="products-plan-image">
+                            <img src="" alt="">
+                            <button type="button" class="secondary-button" data-bs-toggle="modal"
+                                data-id="640a34e81e81e9fdcee8dd4e" data-bs-target="#addon-plans-included">
+                                Select
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="product-plans-sidebar-faq hide-mob">
+            <h3>FAQ</h3>
+        
+        
+            <div class="product-plans-sidebar-faq-single">
+                <h4>Which AC brands do you repair and service?</h4>
+                <p>
+                    Which AC brands do you repair and service?Which AC brands do you repair and service?Which AC brands do you
+                    repair and service? </p>
+            </div>
+            <div class="product-plans-sidebar-faq-single">
+                <h4>Which AC brands do you repair and service?</h4>
+                <p>
+                    Which AC brands do you repair and service?Which AC brands do you repair and service?Which AC brands do you
+                    repair and service? </p>
+            </div>
+        </div>
+        <div class="product-promotional-banner">
+            <img src="https://v1.serviz.in/wp-content/themes/serviz/images/Frame 388.jpg" alt="" class="img-fluid">
+        </div>
+    </main>
+    <footer>
+        <img src="./Asserts/logo.jpg" width="100px" height="100px" class="footer-logo">
+        <div class="flex-container">
+            <div class="a">
+                <dl>
+                    <h4 class="heading">SERVIZ</h4>
+                    <dd>Home</dd>
+                    <dd>Order Status</dd>
+                    <dd> Partner with Serviz</dd>
+                    <dd>Terms & Conditions</dd>
+                    <dd>Privacy Policy</dd>
+                </dl>
+            </div>
+            <div class="b">
+                <dl>
+                    <h4 class="heading">SERVICEABLECITIES</h4>
+                    <dd> Bhimavaram</dd>
+                    <dd>Narsapuram</dd>
+                    <dd>Palakollu</dd>
+                    <dd>Tanuku</dd>
+                    <dd>Tadepalligudem</dd>
+                </dl>
+            </div>
+            <div class="c">
+                <dl>
+                    <h4 class="heading">CONTACTUS</h4>
+                    <dd>Customer Service</dd>
+                    <dd>+91 76600 99100</dd>
+                    <dd>Email</dd>
+                    <dd>contact@serviz.in</dd>
+                    <dd>INFERVIZE HOME SERVICES Pvt Ltd.,<br>
+                        B-8, D Block, Sector 2, Noida,<br>
+                        Uttar Pradesh. 201301</dd>
+                </dl>
+            </div>
+            <div class="d" style="display: flex;">
+                <div class="d">
+                    <h4 class="heading">SOCIALLINKS</h4>
+                    <!-- <ul style="display: flex; flex-direction: row; list-style: none;"> -->
+                    <img src="./Asserts/instagram.png" width="39rem" height="39rem">
+                    <img src="./Asserts/twitter.png" width="39rem" height="39rem">
+                    <img src="./Asserts/linkedin.png" width="39rem" height="39rem">
+                    <img src="./Asserts/facebook.png" width="39rem" height="39rem">
+                    <!-- </ul> -->
+                              
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("warn").innerHTML = localStorage.getItem("v1");
+    document.getElementById("brand").innerHTML = localStorage.getItem("v2");
+        document.getElementById("appliance").innerHTML = localStorage.getItem("spancontent");
+        document.getElementById("heading").innerHTML=localStorage.getItem("spancontent");
+    </script>
+
+</html>
